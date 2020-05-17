@@ -1,7 +1,7 @@
 absl-py==0.8.1
 appnope==0.1.0
 astor==0.8.0
-bleach==1.5.0
+bleach==3.1.4
 cycler==0.10.0
 decorator==4.3.0
 dlib==19.9.0
@@ -17,7 +17,6 @@ ipython==6.2.1
 ipython-genutils==0.2.0
 ipywidgets==7.1.1
 jedi==0.11.1
-Jinja2==2.10
 jsonschema==2.6.0
 jupyter==1.0.0
 jupyter-client==5.2.2
@@ -34,14 +33,14 @@ mistune==0.8.3
 nbconvert==5.3.1
 nbformat==4.4.0
 networkx==2.3
-notebook==5.4.0
+notebook==5.7.8
 numpy==1.14.5
 opencv-python==3.4.0.12
 pandocfilters==1.4.2
 parso==0.1.1
 pexpect==4.3.1
 pickleshare==0.7.4
-Pillow==6.2.0
+Pillow==6.2.2
 prompt-toolkit==1.0.15
 protobuf==3.10.0
 ptyprocess==0.5.2
@@ -60,7 +59,7 @@ Send2Trash==1.4.2
 simplegeneric==0.8.1
 six==1.11.0
 tensorboard==1.14.0
-tensorflow==1.14.0
+tensorflow==1.15.2
 tensorflow-estimator==1.14.0
 termcolor==1.1.0
 terminado==0.8.1
