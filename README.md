@@ -1,15 +1,15 @@
-# face-recognition
-**Paper Title:**  **Privacy-preserving for face-recognition based on secure multiparty computation and siamese network**
-
-**Paper model structure**:
+# **Privacy-preserving for face-recognition based on secure multiparty computation and siamese network**
+## Paper model structure
 
 ![paper](http://imdreamer.oss-cn-hangzhou.aliyuncs.com/picGo/model%20architecture.png)
 
 ## Table of Contents
 
-- [Background](https://github.com/imdreamer2018/SimpleBlog#background)
-- [Install](https://github.com/imdreamer2018/SimpleBlog#install)
-- [License](https://github.com/imdreamer2018/SimpleBlog#license)
+- [Background](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition#background)
+- [Install](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition#install)
+- [Future](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition#Future)
+- [Improvemeng](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition#Improvement)
+- [License](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition#license)
 
 ## Background
 
@@ -31,7 +31,7 @@
 ------
 
 <p><font face="roman" size=5>
-  Application characteristics including:
+  <b>Application characteristics including:</b>
 </font></p>
 
 <p><font face="roman" size=3 color="blue">
@@ -45,9 +45,68 @@
 
 ## Install
 
+```shell
+#environment python3
+git clone https://github.com/imdreamer2018/privacy-preserving-for-face-recognition.git
+cd privacy-preserving-for-face-recognition
+pip install -r requirements.txt
+```
 
+### Download model
 
+You can click this [link](http://imdreamer.oss-cn-hangzhou.aliyuncs.com/picGo/models.zip) download some models include dlib,openFace nn4 small etc.Then put models on project root directory.
 
+### Tree
 
+```shell
+.
+├── faceImages
+├── faceData
+├── models
+├── mpc
+├── openface
+├── visualization_process
+├── weights
+├── config.py
+├── faceGenerator.py
+├── faceRecognizer.py
+├── generateFaceEmbedded.py
+├── encryptedClassification.py
+├── encryptedPrediction.py
+├── requirements.txt
+└── README.md
+```
 
+### Project program execution steps
+
+```python
+#step1:Collect some face images by faceGenerator.py,then put these images on dir faceImages
+python faceGenerator.py
+#step2:Generate face embedded by generateFaceEmbedded.py,then put these embedded on dir faceData
+python generateFaceEmbedded.py
+#step3:Train your privacy preserving face recognition model.And these model will be save in dir weights
+python encryptedClassification.py
+#step4:Run face recognition program tool.
+python faceRecognizer.py
+```
+
+### Face recognization
+
+![](http://imdreamer.oss-cn-hangzhou.aliyuncs.com/picGo/face.png)
+
+## Future
+
+In order to ensure that there is no network delay, and in the case of limited funds and my capacity.Actually,the privacy preserving for face recognition project running in local computer, not really running on a cloud server.
+
+In future,I hope this project can really achieve privacy preserving face recognition by MPC and Secret.Because of I have writen the train protocol in MPC,so I will use the [tf-encrypted](https://github.com/tf-encrypted/tf-encrypted) achieve my paper.Wait and see...
+
+## Improvement
+
+- In this paper, high-order continuous polynomials are used to approximate nonlinear activation functions such as sigmoid and softmax. Compared with the original nonlinear activation functions, not only will there be a large computational cost, but also a small amount of accuracy loss after training. At present, no new friendly activation function is found to be a better alternative method than using Taylor series to approximate the exponential function. In the future work, we can make better improvements in the friendly activation function, which can improve the calculation efficiency and the accuracy of the model.
+- When extracting face embeddings from offline clients, this paper uses the OpenFace pre-training model to obtain face embeddings. The pre-training model directly affects the accuracy of the face recognition privacy protection model. In future work, you can choose a pre-trained model with better performance and higher accuracy, which can improve the accuracy of the face recognition privacy protection model.
+- More complex neural network models can be designed to improve the accuracy of the face recognition privacy protection model.
+
+## License
+
+[MIT](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition/LICENSE) @Imdreamer
 
