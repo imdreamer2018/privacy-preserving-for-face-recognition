@@ -31,12 +31,13 @@
 
 ### Application characteristics including:
 
-<p><font face="roman" size=3 color="blue">
-- FaceImageGenerator tool<br>
-- Face align by dlib model<br>
-- Extract face embedded by openFace model <br>
-- Train encrypted classification model base on MPC and Secret Sharing<br>
-- FaceRecoginzer tool</font></p>
+
+- FaceImageGenerator tool
+- Face align by dlib model
+- Extract face embedded by openFace model 
+- Train encrypted classification model base on MPC and Secret Sharing
+- FaceRecoginzer tool
+
 ------
 
 ## Install
