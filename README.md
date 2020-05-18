@@ -27,7 +27,6 @@
 	<br>
 <b>Keywords</b>: face recognition; privacy preserving; secure multiparty computing; secret sharing; deep learning; siamese neural network
   </p>
-
 ------
 
 ### Application characteristics including:
@@ -110,5 +109,5 @@ In future,I hope this project can really achieve privacy preserving face recogni
 
 ## License
 
-[MIT](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition/blob/master/LICENSE)@Imdreamer
+[MIT](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition/blob/master/LICENSE) © Imdreamer
 
