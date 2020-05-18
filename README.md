@@ -7,7 +7,7 @@
 
 - [Background](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition#background)
 - [Install](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition#install)
-- [Improvemeng](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition#Improvement)
+- [Improvement](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition#Improvement)
 - [Future](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition#Future)
 - [License](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition#license)
 
@@ -27,7 +27,6 @@
 	<br>
 <b>Keywords</b>: face recognition; privacy preserving; secure multiparty computing; secret sharing; deep learning; siamese neural network
   </p></font>
-
 ------
 
 ### Application characteristics including:
@@ -38,7 +37,6 @@
 - Extract face embedded by openFace model <br>
 - Train encrypted classification model base on MPC and Secret Sharing<br>
 - FaceRecoginzer tool</font></p>
-
 ------
 
 ## Install
@@ -110,4 +108,5 @@ In future,I hope this project can really achieve privacy preserving face recogni
 
 ## License
 
-[MIT](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition/blob/master/LICENSE) @Imdreamer
+[MIT](https://github.com/imdreamer2018/privacy-preserving-for-face-recognition/blob/master/LICENSE)@Imdreamer
+
