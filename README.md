@@ -26,7 +26,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, this paper analyzes the correctness and security of the scheme, and implements the scheme through experiments. The results show that the face recognition privacy protection scheme based on secure multiparty computing and Siamese neural network not only has reliable security. And has the advantages of light weight, high accuracy, and computational efficiency. This solution has important application value and practical significance for building a safe and efficient face recognition privacy protection system.
 	<br>
 <b>Keywords</b>: face recognition; privacy preserving; secure multiparty computing; secret sharing; deep learning; siamese neural network
-  </p></font>
+  </p>
+
 ------
 
 ### Application characteristics including:
