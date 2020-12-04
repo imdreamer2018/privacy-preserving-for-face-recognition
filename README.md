@@ -60,6 +60,8 @@ You can click this [link](http://imdreamer.oss-cn-hangzhou.aliyuncs.com/picGo/mo
 ### Application execution steps
 
 ```python
+you should install cmake. 
+macOS: brew install cmake
 #step1:Collect some face images by faceGenerator.py,then put these images on dir faceImages
 python faceGenerator.py
 #step2:Generate face embedded by generateFaceEmbedded.py,then put these embedded on dir faceData
